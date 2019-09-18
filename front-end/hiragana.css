@@ -1,0 +1,87 @@
+body{
+  background: orange;
+}
+
+
+#header {
+  border: 5px black;
+  border-radius: 30px;
+  padding: 30px;
+  text-align: center;
+  background: #181463;
+  color: white;
+  font-size: 30px;
+}
+#quizA, #quizI, #quizU, #quizO, #quizE, #box, #save {
+  background-color: orange;
+  border: 2px solid black;
+  color: white;
+  padding: 6px 25px;
+  text-align: center;
+  font-size: 12px;
+  width: 140px;
+  height: 50px;
+  border-radius: 10px
+}
+#in {
+  width: 120px;
+  position: center;
+}
+
+#study {
+
+ margin-left: 20%;
+ margin-right: 20%;
+
+}
+
+.image {
+  background: white;
+  width: 140px;
+  height: 140px;
+  position: relative;
+  z-index: 1;
+}
+
+.image:hover {
+  opacity: 0;
+}
+
+.gif {
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  z-index: 99;
+  opacity: 0;
+}
+
+.gif:hover {
+  opacity: 1;
+}
+
+td.null {
+
+}
+
+td.vals {
+  background: white;
+  border: 3px solid black;
+  padding: 5px;
+  box-shadow: 5px 5px 18px black;
+  border-spacing: 5px 1rem;
+}
+table.quizzes {
+
+  padding: 2px;
+  border-spacing: 5px 1rem;
+}
+
+#quiz {
+  padding: 30px;
+  text-align: center;
+  background: #181463;
+  color: white;
+  font-size: 12px;
+  border: 5px black;
+  border-radius: 30px;
+}
